@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.*;
 import javax.servlet.http.HttpServletRequest;
 import java.util.List;
 import java.util.Optional;
-@Api( description="API pour les opérations CRUD sur les annonces.")
+@Api( description="API pour les opérations CRUD sur les Annonces.")
 @RestController
 @RequestMapping("api/annonce")
 public class AnnonceController {
